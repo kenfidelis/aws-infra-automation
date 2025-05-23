@@ -36,7 +36,7 @@ This project provides a robust, modular approach to AWS infrastructure deploymen
 ## Project Structure
 
 ```
-aws-infrastructure/
+aws-infra-automation/
 ├── modules/                      # Reusable components
 │   ├── networking/               # VPC, subnets, routing
 │   ├── compute/                  # EC2, Auto Scaling Groups
@@ -63,8 +63,8 @@ aws-infrastructure/
 
 1. **Clone this repository**:
    ```
-   git clone https://github.com/yourusername/aws-infrastructure.git
-   cd aws-infrastructure
+   git clone https://github.com/kenfidelis/aws-infra-automation.git
+   cd aws-infra-automation
    ```
 
 2. **Initialize Terraform**:
